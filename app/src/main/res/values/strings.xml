@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fruit OS Launcher Android</string>
+
+    <string name="widget_clock_name">Horloge</string>
+    <string name="widget_clock_desc">Analogique ou numérique, clair ou sombre</string>
+
+    <string name="widget_weather_name">Météo</string>
+    <string name="widget_weather_desc">Température et prévisions du jour</string>
+
+    <string name="widget_photo_frame_name">Cadre Photo</string>
+    <string name="widget_photo_frame_desc">Une photo ou un diaporama</string>
+</resources>

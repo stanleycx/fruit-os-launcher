@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!--
+      Logo « Fruit OS » : une goutte (Fruity Glass) avec une encoche ANGULAIRE sur le côté droit.
+      Encoche volontairement en V (et non une morsure ronde) pour rester un design original.
+      Tracé dans la zone de sécurité (centre ~66dp du canvas 108dp).
+    -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,28 C60,30 73,44 74,50 L63,55 L74,61 A22,22 0 1 1 32,62 C36,44 48,30 54,28 Z" />
+</vector>

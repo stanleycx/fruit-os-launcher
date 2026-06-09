@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:fillColor="#1C1C1E"
+        android:pathData="M24,4 L76,4 A20,20 0 0 1 96,24 L96,76 A20,20 0 0 1 76,96 L24,96 A20,20 0 0 1 4,76 L4,24 A20,20 0 0 1 24,4 Z" />
+    <!-- soleil -->
+    <path android:fillColor="#FFCC00" android:pathData="M70,34 A11,11 0 1 1 69.99,34 Z" />
+    <path android:strokeColor="#FFCC00" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M70,16 L70,20 M70,48 L70,52 M52,34 L56,34 M84,34 L88,34 M57,21 L60,24 M80,44 L83,47 M83,21 L80,24 M60,44 L57,47" />
+    <!-- localisation (barre) -->
+    <path android:fillColor="#88FFFFFF" android:pathData="M20,24 h26 v5 h-26 z" />
+    <!-- temp (gros bloc) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M20,52 h34 v16 h-34 z" />
+    <!-- hi / lo -->
+    <path android:fillColor="#FF9F0A" android:pathData="M20,78 h18 v5 h-18 z" />
+    <path android:fillColor="#64D2FF" android:pathData="M44,78 h18 v5 h-18 z" />
+</vector>

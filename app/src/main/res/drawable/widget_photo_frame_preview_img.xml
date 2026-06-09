@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- cadre -->
+    <path android:fillColor="#1C1C1E"
+        android:pathData="M24,4 L76,4 A20,20 0 0 1 96,24 L96,76 A20,20 0 0 1 76,96 L24,96 A20,20 0 0 1 4,76 L4,24 A20,20 0 0 1 24,4 Z" />
+    <!-- photo (zone intérieure) ciel -->
+    <path android:fillColor="#3A7BD5"
+        android:pathData="M26,14 L74,14 A12,12 0 0 1 86,26 L86,74 A12,12 0 0 1 74,86 L26,86 A12,12 0 0 1 14,74 L14,26 A12,12 0 0 1 26,14 Z" />
+    <!-- soleil -->
+    <path android:fillColor="#FFD93B" android:pathData="M64,34 A8,8 0 1 1 63.99,34 Z" />
+    <!-- montagnes -->
+    <path android:fillColor="#2E7D5B" android:pathData="M14,74 L36,48 L54,74 Z" />
+    <path android:fillColor="#3FA37A" android:pathData="M40,86 L62,52 L86,86 Z" />
+    <!-- base -->
+    <path android:fillColor="#1F5C44" android:pathData="M14,74 L86,74 L86,80 L14,80 Z" />
+</vector>

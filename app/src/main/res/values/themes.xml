@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FruitOSLauncher.Launcher" parent="android:Theme.Material.NoActionBar">
+        <!-- Transparence totale des barres -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- Wallpaper en fond -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+
+        <!-- Status bar SYSTÈME affichée (transparente, edge-to-edge). On ne cache plus
+             la barre : pas de windowFullscreen, pas de windowTranslucentStatus. Seule la
+             nav bar reste gérée par le contrôleur immersif côté MainActivity. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <!-- Désactive le scrim noir une bonne fois pour toutes -->
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+
+        <!-- Bonus launcher -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+    </style>
+
+</resources>

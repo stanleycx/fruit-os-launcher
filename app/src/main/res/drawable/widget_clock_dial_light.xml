@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Face claire -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,8 A112,112 0 1 1 119.99,8 Z" />
+
+    <!-- Anneau sombre -->
+    <path
+        android:strokeColor="#1F000000"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M120,12 A108,108 0 1 1 119.99,12 Z" />
+
+    <!-- Repères 12 / 3 / 6 / 9 -->
+    <path android:strokeColor="#1C1C1E" android:strokeWidth="5" android:strokeLineCap="round"
+        android:pathData="M120,20 L120,34" />
+    <path android:strokeColor="#1C1C1E" android:strokeWidth="5" android:strokeLineCap="round"
+        android:pathData="M120,206 L120,220" />
+    <path android:strokeColor="#1C1C1E" android:strokeWidth="5" android:strokeLineCap="round"
+        android:pathData="M206,120 L220,120" />
+    <path android:strokeColor="#1C1C1E" android:strokeWidth="5" android:strokeLineCap="round"
+        android:pathData="M20,120 L34,120" />
+
+    <!-- Repères secondaires (radiaux) -->
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M166,40 L171,32" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M200,74 L208,69" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M200,166 L208,171" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M166,200 L171,208" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M74,200 L69,208" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M40,166 L32,171" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M40,74 L32,69" />
+    <path android:strokeColor="#55000000" android:strokeWidth="3" android:strokeLineCap="round"
+        android:pathData="M74,40 L69,32" />
+
+    <!-- Pivot central sombre -->
+    <path android:fillColor="#1C1C1E"
+        android:pathData="M120,112 A8,8 0 1 1 119.99,112 Z" />
+</vector>

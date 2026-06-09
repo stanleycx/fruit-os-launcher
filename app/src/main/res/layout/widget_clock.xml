@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_rounded_bg"
+    android:padding="10dp">
+
+    <!-- AnalogClock = vue native auto-animée (trotteuse en continu, zéro update provider) -->
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:dial="@drawable/widget_clock_dial"
+        android:hand_hour="@drawable/widget_clock_hand_hour"
+        android:hand_minute="@drawable/widget_clock_hand_minute"
+        android:hand_second="@drawable/widget_clock_hand_second" />
+
+</FrameLayout>

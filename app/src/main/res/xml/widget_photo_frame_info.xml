@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/widget_photo_frame_name"
+    android:description="@string/widget_photo_frame_desc"
+    android:initialLayout="@layout/widget_photo_frame"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:configure="com.stanleycx.fruitos.widget.PhotoFrameWidgetConfigActivity"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/widget_photo_frame_preview_img"
+    android:previewLayout="@layout/widget_photo_frame" />
